@@ -13,5 +13,6 @@ rm -f "$HOME/.zshrc" && ln -sf "$dotfiles/zsh/.zshrc" "$HOME/.zshrc"
 
 for configFile in $dotfiles/hypr/*; do
     fileName=$(basename "$configFile")
+    rm -f "$configDir/october-config/hypr/user/$fileName"
     ln -sf "$dotfiles/hypr/$fileName" "$configDir/october-config/hypr/user/$fileName"
 done

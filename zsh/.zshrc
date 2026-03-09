@@ -32,8 +32,8 @@ ZSH_COLORIZE_TOOL=chroma
 source $ZSH/oh-my-zsh.sh
 
 ## Dotfiles aliases
-alias backup-config='~/dotfiles/backup.sh'
-alias apply-config='~/dotfiles/apply.sh'
+alias backup-config='~/.config/october-dotfiles/backup.sh'
+alias apply-config='~/.config/october-dotfiles/apply.sh'
 
 ## Modified default commands aliases
 alias ls='ls --color=auto'
