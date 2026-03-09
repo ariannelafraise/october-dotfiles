@@ -28,7 +28,7 @@
   "theme": {
     "mode": "dark",
     "light": "Nightfox - blurred",
-    "dark": "Nightfox - opaque",
+    "dark": "Nightfox - blurred",
   },
   "auto_install_extensions": {
     "catpuccin-icons": true,
@@ -39,5 +39,6 @@
     "dockerfile": true,
     "rainbow-csv": true,
     "sql": true,
+    "nvim-nightfox": true,
   },
 }
