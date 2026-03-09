@@ -1,4 +1,4 @@
-# My dotfiles and configuration scripts
+# My dotfiles and configuration scripts for October Linux
 
 ## Installation
 > [!WARNING]
