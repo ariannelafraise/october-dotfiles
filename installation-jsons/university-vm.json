@@ -1,8 +1,8 @@
 {
   "drives": [
     {
-      "path": "/dev/nvme0n1",
-      "append": true,
+      "path": "/dev/vda",
+      "append": false,
       "partitions": [
         {
           "size": {
@@ -13,7 +13,7 @@
         },
         {
           "size": {
-            "amount": 8,
+            "amount": 2,
             "unit": "GiB"
           },
           "partitionType": "0657FD6D-A4AB-43C4-84E5-0933C84B4F4F"
@@ -46,36 +46,16 @@
     "officialRepositories": [
       "archiso",
       "archlinux-xdg-menu",
-      "bc",
-      "brightnessctl",
       "btop",
       "fastfetch",
-      "go",
-      "hyprsunset",
-      "obsidian",
       "progress",
       "python-termcolor",
-      "reflector",
-      "tlp",
-      "tlpui",
       "zip",
       "unzip",
-      "zathura",
-      "zathura-pdf-mupdf",
       "zed",
       "zsh",
       "code"
     ],
-    "aur": [
-      "bitwarden-bin",
-      "discord-ptb",
-      "go-chroma-bin",
-      "huenicorn",
-      "oh-my-posh-bin",
-      "onefetch",
-      "spotify",
-      "vesktop-bin",
-      "wireguard-tools"
-    ]
+    "aur": ["go-chroma-bin", "oh-my-posh-bin", "onefetch"]
   }
 }
