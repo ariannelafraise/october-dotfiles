@@ -12,5 +12,6 @@ rm -f "$HOME/.bashrc" && ln -sf "$dotfiles/bash/.bashrc" "$HOME/.bashrc"
 rm -f "$HOME/.zshrc" && ln -sf "$dotfiles/zsh/.zshrc" "$HOME/.zshrc"
 
 for configFile in $dotfiles/hypr; do
-    ln -sf "$dotfiles/hypr/$configFile" "$configDir/october-config/hypr/user/$configFile"
+    fileName=$(basename "$configFile")
+    ln -sf "$dotfiles/hypr/$fileName" "$configDir/october-config/hypr/user/$fileName"
 done
