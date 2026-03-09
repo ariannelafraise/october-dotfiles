@@ -10,9 +10,6 @@
   "edit_predictions": {
     "mode": "subtle",
   },
-  "features": {
-    "edit_prediction_provider": "copilot",
-  },
   "agent": {
     "default_profile": "ask",
     "default_model": {
@@ -31,7 +28,7 @@
     "dark": "Nightfox - blurred",
   },
   "auto_install_extensions": {
-    "catpuccin-icons": true,
+    "catppuccin-icons": true,
     "discord-presence": false,
     "git-firefly": true,
     "html": true,
