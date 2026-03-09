@@ -1,0 +1,13 @@
+#!/bin/bash
+
+dotfiles="${HOME}/.config/october-dotfiles"
+configDir="${HOME}/.config"
+
+rm -rf "$configDir/btop" && ln -sf "$dotfiles/btop" "$configDir/btop"
+rm -rf "$configDir/fastfetch" && ln -sf "$dotfiles/fastfetch" "$configDir/fastfetch"
+rm -rf "$configDir/hypr/user" && ln -sf "$dotfiles/hypr" "$configDir/hypr/user"
+# rm -rf "$HOME/.config/kitty" && ln -sf "$HOME/dotfiles/config/kitty" "$HOME/.config/kitty"
+rm -rf "$configDir/oh-my-posh" && ln -sf "$dotfiles/oh-my-posh" "$configDir/oh-my-posh"
+rm -rf "$configDir/zed" && ln -sf "$dotfiles/zed" "$configDir/zed"
+rm -f "$HOME/.bashrc" && ln -sf "$dotfiles/bash/.bashrc" "$HOME/.bashrc"
+rm -f "$HOME/.zshrc" && ln -sf "$dotfiles/zsh/.zshrc" "$HOME/.zshrc"
