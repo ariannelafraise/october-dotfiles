@@ -31,4 +31,12 @@
       "keys": "magenta",
     },
   },
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/logo.txt",
+    "color": {
+      "1": "magenta", // Couleur du cadre (Rose)
+      "2": "white", // Couleur du Sparkle (Blanc)
+    },
+  },
 }
