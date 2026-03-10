@@ -81,8 +81,9 @@ export PATH=$PATH:~/personal_dev/discord-cosmetics-automation
 # Nitch system info fetcher
 export PATH=$PATH:/opt/nitch
 
-# Ruby
-export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
+# Install Ruby Gems to ~/rubygems
+export GEM_HOME="$HOME/.rubygems"
+export PATH="$HOME/.rubygems/bin:$PATH"
 
 # pnpm
 export PNPM_HOME="/home/arianne/.local/share/pnpm"
