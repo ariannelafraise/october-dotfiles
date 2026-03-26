@@ -7,14 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "subtle",
   },
   "agent": {
     "default_profile": "ask",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5-mini",
+      "provider": "lmstudio",
+      "model": "qwen/qwen3.5-9b",
     },
     "model_parameters": [],
   },

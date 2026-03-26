@@ -8,11 +8,12 @@ rm -rf "$configDir/fastfetch" && ln -sf "$dotfiles/fastfetch" "$configDir/fastfe
 # rm -rf "$HOME/.config/kitty" && ln -sf "$HOME/dotfiles/config/kitty" "$HOME/.config/kitty"
 rm -rf "$configDir/oh-my-posh" && ln -sf "$dotfiles/oh-my-posh" "$configDir/oh-my-posh"
 rm -rf "$configDir/zed" && ln -sf "$dotfiles/zed" "$configDir/zed"
+rm -rf "$configDir/nvim" && ln -sf "$dotfiles/lazyvim" "$configDir/nvim"
 rm -f "$HOME/.bashrc" && ln -sf "$dotfiles/bash/.bashrc" "$HOME/.bashrc"
 rm -f "$HOME/.zshrc" && ln -sf "$dotfiles/zsh/.zshrc" "$HOME/.zshrc"
 
 for configFile in $dotfiles/hypr/*; do
-    fileName=$(basename "$configFile")
-    rm -f "$configDir/october-config/hypr/user/$fileName"
-    ln -sf "$dotfiles/hypr/$fileName" "$configDir/october-config/hypr/user/$fileName"
+  fileName=$(basename "$configFile")
+  rm -f "$configDir/october-config/hypr/user/$fileName"
+  ln -sf "$dotfiles/hypr/$fileName" "$configDir/october-config/hypr/user/$fileName"
 done
