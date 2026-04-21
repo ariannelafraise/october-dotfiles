@@ -59,6 +59,8 @@ alias nas-pdc-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,ui
 alias nas-pdc-umount='sudo umount /nas/pdc'
 alias nas-arianne-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,uid=1000,gid=1000,x-systemd.automount,_netdev //nas-arianne.pdc.ovh/Arianne /nas/arianne'
 alias nas-arianne-umount='sudo umount /nas/arianne'
+alias nas-arriott-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,uid=1000,gid=1000,x-systemd.automount,_netdev //nas-arianne.pdc.ovh/Arriott /nas/arriott'
+alias nas-arriott-umount='sudo umount /nas/arriott'
 
 # SSH aliases
 alias rpi-connect='ssh arianne@192.168.240.90'
@@ -73,8 +75,8 @@ SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
 #fi
 
 # Java Oracle
-export JAVA_HOME=$HOME/java/jdk1.8.0_451
-export PATH=$PATH:$JAVA_HOME/bin
+#export JAVA_HOME=$HOME/java/jdk1.8.0_451
+#export PATH=$PATH:$JAVA_HOME/bin
 
 # Discord Cosmetics Automation Script
 export PATH=$PATH:~/personal_dev/discord-cosmetics-automation
@@ -96,4 +98,3 @@ esac
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/arianne/.lmstudio/bin"
 # End of LM Studio CLI section
-
