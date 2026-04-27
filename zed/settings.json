@@ -7,11 +7,24 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "show_edit_predictions": false,
   "edit_predictions": {
     "mode": "subtle",
   },
   "agent": {
+    "dock": "right",
     "default_profile": "write",
     "default_model": {
       "provider": "lmstudio",
