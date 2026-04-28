@@ -63,7 +63,7 @@ alias nas-arriott-mount='sudo mount -t cifs -o credentials=/etc/samba/credential
 alias nas-arriott-umount='sudo umount /nas/arriott'
 
 # SSH aliases
-alias rpi-connect='ssh arianne@192.168.240.90'
+alias rpi-connect='ssh arianne@192.168.60.41'
 
 # SSH
 #eval $(ssh-agent) &> /dev/null
