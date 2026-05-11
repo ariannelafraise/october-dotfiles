@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "languages": {
+    "TypeScript": {
+      "format_on_save": "off",
+      "indent_guides": {
+        "enabled": true
+      },
+      "tab_size": 4
+    },
+    "JavaScript": {
+      "tab_size": 4,
+      "format_on_save": "off"
+    }
+  },
+  "cli_default_open_behavior": "existing_window",
   "project_panel": {
     "dock": "left"
   },
@@ -39,7 +53,7 @@
   "theme": {
     "mode": "dark",
     "light": "Nightfox - blurred",
-    "dark": "Nightfox - blurred",
+    "dark": "Duskfox - opaque",
   },
   "auto_install_extensions": {
     "catppuccin-icons": true,
