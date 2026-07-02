@@ -61,6 +61,8 @@ alias nas-arianne-mount='sudo mount -t cifs -o credentials=/etc/samba/credential
 alias nas-arianne-umount='sudo umount /nas/arianne'
 alias nas-arriott-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,uid=1000,gid=1000,x-systemd.automount,_netdev //nas-arianne.pdc.ovh/Arriott /nas/arriott'
 alias nas-arriott-umount='sudo umount /nas/arriott'
+alias nas-fotoo-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,uid=1000,gid=1000,x-systemd.automount,_netdev //nas-arianne.pdc.ovh/Fotoo /nas/fotoo'
+alias nas-fotoo-umount='sudo umount /nas/fotoo'
 
 # SSH aliases
 alias rpi-connect='ssh arianne@192.168.60.41'

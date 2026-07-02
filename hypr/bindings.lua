@@ -13,3 +13,6 @@ hl.bind(main_mod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:di
 -- Music workspace
 hl.bind(main_mod .. " + D", hl.dsp.workspace.toggle_special("music"))
 hl.bind(main_mod .. " + SHIFT + D", hl.dsp.window.move({ workspace = "special:music" }))
+
+-- Layout
+hl.bind(main_mod .. " + A", hl.dsp.layout("togglesplit"))
