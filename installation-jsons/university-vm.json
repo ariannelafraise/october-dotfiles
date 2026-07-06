@@ -37,7 +37,7 @@
   ],
   "mirrorCountries": ["Canada", "United States"],
   "timezone": "America/Montreal",
-  "locale": "US.UTF-8",
+  "locale": "en_US.UTF-8",
   "hostname": "kitaria",
   "rootPassword": "censored",
   "bestEffortGPU": false,
