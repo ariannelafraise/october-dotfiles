@@ -63,7 +63,6 @@
       "zathura-pdf-mupdf",
       "zed",
       "zsh",
-      "code",
       "libvirt",
       "swtpm",
       "virt-manager",
@@ -78,7 +77,8 @@
       "onefetch",
       "spotify",
       "vesktop-bin",
-      "wireguard-tools"
+      "wireguard-tools",
+      "visual-studio-code-bin"
     ]
   }
 }
