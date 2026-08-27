@@ -31,6 +31,9 @@ ZSH_COLORIZE_TOOL=chroma
 
 source $ZSH/oh-my-zsh.sh
 
+# Exegol
+alias exegol='sudo -E $HOME/.local/bin/exegol'
+
 ## Dotfiles aliases
 alias backup-config='~/.config/october-dotfiles/backup.sh'
 alias apply-config='~/.config/october-dotfiles/apply.sh'
@@ -65,7 +68,7 @@ alias nas-fotoo-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,
 alias nas-fotoo-umount='sudo umount /nas/fotoo'
 
 # SSH aliases
-alias rpi-connect='ssh arianne@192.168.60.41'
+alias rpi-connect='kitten ssh arianne@192.168.60.41'
 
 # SSH
 #eval $(ssh-agent) &> /dev/null
@@ -102,3 +105,6 @@ export PATH="$PATH:/home/arianne/.lmstudio/bin"
 # End of LM Studio CLI section
 
 export SSLKEYLOGFILE=~/.ssl-key.log
+
+# Created by `pipx` on 2026-07-22 21:38:13
+export PATH="$PATH:/home/arianne/.local/bin"

@@ -26,20 +26,6 @@
           "fileSystem": "ext4"
         }
       ]
-    },
-    {
-      "path": "/dev/sda",
-      "append": false,
-      "partitions": [
-        {
-          "size": {
-            "takeRemaining": true
-          },
-          "partitionType": "0FC63DAF-8483-4772-8E79-3D69D8477DE4",
-          "fileSystem": "ext4",
-          "mountPoint": "/mnt/data"
-        }
-      ]
     }
   ],
   "users": [
@@ -71,11 +57,7 @@
       "reflector",
       "zip",
       "unzip",
-      "zathura",
-      "zathura-pdf-mupdf",
-      "zed",
       "zsh",
-      "code",
       "libvirt",
       "swtpm",
       "virt-manager",
@@ -83,11 +65,11 @@
       "lutris",
       "openrazer-daemon",
       "steam",
-      "wine"
+      "wine",
+      "proton-vpn-gtk-app"
     ],
     "aur": [
       "bitwarden-bin",
-      "discord-ptb",
       "go-chroma-bin",
       "huenicorn",
       "oh-my-posh-bin",
@@ -99,7 +81,10 @@
       "polychromatic",
       "minecraft-launcher",
       "protonup-qt",
-      "xpadneo-dkms-git"
+      "xpadneo-dkms-git",
+      "visual-studio-code-bin",
+      "lmstudio-bin",
+      "opencode-bin"
     ]
   }
 }
