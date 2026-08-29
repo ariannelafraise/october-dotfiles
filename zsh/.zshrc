@@ -69,6 +69,7 @@ alias nas-fotoo-umount='sudo umount /nas/fotoo'
 
 # SSH aliases
 alias rpi-connect='kitten ssh arianne@192.168.60.41'
+alias dns-connect='kitten ssh arianne@192.168.60.50'
 
 # SSH
 #eval $(ssh-agent) &> /dev/null
