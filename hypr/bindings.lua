@@ -16,3 +16,6 @@ hl.bind(main_mod .. " + SHIFT + D", hl.dsp.window.move({ workspace = "special:mu
 
 -- Layout
 hl.bind(main_mod .. " + A", hl.dsp.layout("togglesplit"))
+
+-- File Explorer (Thunar)
+hl.bind(main_mod .. " + E", hl.dsp.exec_cmd("thunar"))
