@@ -1,4 +1,5 @@
 hl.on("hyprland.start", function()
+    hl.exec_cmd("hypridle -c $HOME/.config/hypridle/hypridle.conf")
     hl.exec_cmd("hyprsunset")
     hl.exec_cmd("openrazer-daemon")
     -- hl.exec_cmd("systemctl --user start hyprpolkitagent")

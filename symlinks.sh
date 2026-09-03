@@ -11,6 +11,7 @@ rm -rf "$configDir/zed" && ln -sf "$dotfiles/zed" "$configDir/zed"
 rm -rf "$configDir/nvim" && ln -sf "$dotfiles/lazyvim" "$configDir/nvim"
 rm -f "$HOME/.bashrc" && ln -sf "$dotfiles/bash/.bashrc" "$HOME/.bashrc"
 rm -f "$HOME/.zshrc" && ln -sf "$dotfiles/zsh/.zshrc" "$HOME/.zshrc"
+rm -f "$configDir/hypridle" && ln -sf "$dotfiles/hypridle" "$configDir/hypridle"
 
 for configFile in $dotfiles/hypr/*; do
   fileName=$(basename "$configFile")
