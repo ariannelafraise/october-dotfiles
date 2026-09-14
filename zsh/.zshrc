@@ -109,3 +109,4 @@ export SSLKEYLOGFILE=~/.ssl-key.log
 
 # Created by `pipx` on 2026-07-22 21:38:13
 export PATH="$PATH:/home/arianne/.local/bin"
+alias exegol='sudo -E /home/arianne/.local/bin/exegol'
