@@ -50,12 +50,8 @@ alias tkt-c-windows='swww img ~/Wallpapers/wallhaven-o5k319.jpg --transition-typ
 alias gyatt='git'
 
 ## QOL aliases
-alias config-huenicorn='brave 127.0.0.1:8215'
-alias desktop='hyprland'
+alias config-huenicorn='zen-browser 127.0.0.1:8215'
 alias disk-usage-here='du -h --max-depth=1 | sort -rh'
-
-## ETS aliases
-alias vpnets='openconnect-sso --server accesvpn.etsmtl.ca'
 
 ## NAS aliases
 alias nas-pdc-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,uid=1000,gid=1000,x-systemd.automount,_netdev //nas-arianne.pdc.ovh/PDC /nas/pdc'
@@ -83,11 +79,6 @@ SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
 # Java Oracle
 #export JAVA_HOME=$HOME/java/jdk1.8.0_451
 #export PATH=$PATH:$JAVA_HOME/bin
-
-# Discord Cosmetics Automation Script
-export PATH=$PATH:~/personal_dev/discord-cosmetics-automation
-# Nitch system info fetcher
-export PATH=$PATH:/opt/nitch
 
 # Ruby
 export GEM_HOME="$HOME/.rubygems"
