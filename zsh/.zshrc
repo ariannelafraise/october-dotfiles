@@ -50,8 +50,7 @@ alias tkt-c-windows='swww img ~/Wallpapers/wallhaven-o5k319.jpg --transition-typ
 alias gyatt='git'
 
 ## QOL aliases
-alias config-huenicorn='brave 127.0.0.1:8215'
-alias desktop='hyprland'
+alias config-huenicorn='zen-browser 127.0.0.1:8215'
 alias disk-usage-here='du -h --max-depth=1 | sort -rh'
 
 ## NAS aliases
@@ -81,11 +80,6 @@ SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
 #export JAVA_HOME=$HOME/java/jdk1.8.0_451
 #export PATH=$PATH:$JAVA_HOME/bin
 
-# Discord Cosmetics Automation Script
-export PATH=$PATH:~/personal_dev/discord-cosmetics-automation
-# Nitch system info fetcher
-export PATH=$PATH:/opt/nitch
-
 # Ruby
 export GEM_HOME="$HOME/.rubygems"
 export PATH="$HOME/.rubygems/bin:$PATH"
@@ -106,3 +100,4 @@ export SSLKEYLOGFILE=~/.ssl-key.log
 
 # Created by `pipx` on 2026-07-22 21:38:13
 export PATH="$PATH:/home/arianne/.local/bin"
+alias exegol='sudo -E /home/arianne/.local/bin/exegol'
