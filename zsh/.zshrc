@@ -54,9 +54,6 @@ alias config-huenicorn='brave 127.0.0.1:8215'
 alias desktop='hyprland'
 alias disk-usage-here='du -h --max-depth=1 | sort -rh'
 
-## ETS aliases
-alias vpnets='openconnect-sso --server accesvpn.etsmtl.ca'
-
 ## NAS aliases
 alias nas-pdc-mount='sudo mount -t cifs -o credentials=/etc/samba/credentials,uid=1000,gid=1000,x-systemd.automount,_netdev //nas-arianne.pdc.ovh/PDC /nas/pdc'
 alias nas-pdc-umount='sudo umount /nas/pdc'
